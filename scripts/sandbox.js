@@ -40,7 +40,7 @@ var baseMaps = {
 };
 
 //Loading JSON from and external file
-var promise = $.getJSON("JSON/restaurants.geojson");
+var promise = $.getJSON("https://raw.githubusercontent.com/Mburu-coder/OnlineAssignment_0/master/JSON/restaurants.geojson");
 promise.then(function(data) {
     var allrestaurants = L.geoJson(data);
 
