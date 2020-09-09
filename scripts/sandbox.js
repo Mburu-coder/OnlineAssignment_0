@@ -64,5 +64,5 @@ promise.then(function(data) {
 var restaurantIcon = L.AwesomeMarkers.icon({
     prefix: 'fa', //font awesome rather than bootstrap
     markerColor: 'blue', //Possible: red, darkred, orange, green, darkgreen, blue, purple, dark purple
-    icon: 'coffee' //https://fontawesome.com/icons?from=io
+    icon: 'bookmark' //https://fontawesome.com/icons?from=io
 });
