@@ -49,7 +49,7 @@ promise.then(function(data) {
             return L.marker(latlng, {
                 icon: restaurantIcon
             }).on('mouseover', function(){
-                this.bindPopup('Restaurant Name: ' + feature.properties.name + '<br>' + 'Cuisine: ' + feature.properties.cuisine).openPopup();
+                this.bindPopup('<b> Restaurant Name: </b>' + feature.properties.name + '<br>' + '<b> Cuisine: </b>' + feature.properties.cuisine).openPopup();
             });
         }
     }).addTo(map);
