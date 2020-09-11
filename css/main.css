@@ -29,3 +29,15 @@
 #title h4 {
     text-align: center;
 }
+
+/*Select any element with footer id*/
+#footer {
+    
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.80;
+    background: rgb(213, 213, 213) none repeat scroll 0% 0%;
+    text-align: center;
+}
