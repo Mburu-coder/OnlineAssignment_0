@@ -2,9 +2,9 @@
 
 var restaurants = L.layerGroup();
 
-var mapboxAttribution = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> Contributors: ' +
-			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Mburu Eileen ' +
-            'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>' ,
+var mapboxAttribution = '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> Contributors: ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a> | <a href = "https://raw.githubusercontent.com/Mburu-coder/OnlineAssignment_0/master/JSON/restaurants.geojson"> Data </a> by Mburu Eileen | ' +
+            '© <a href="https://www.mapbox.com/">Mapbox</a>' ,
 		mapboxURL = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWJ1cnVtYnVydSIsImEiOiJja2RlMmRxa2EwcHlvMnRxcXJvcm13dWxqIn0.LVTLGjL-WDQh9LXOvcan7A';
 
 //Creating  base layers and adding the default ones to the map
